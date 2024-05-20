@@ -1,5 +1,5 @@
 # string concatenation
-print("Hello" + " " + "World!")
+# print("Hello" + " " + "World!")
 
 # Debugging
 
@@ -9,7 +9,11 @@ print("Hello" + " " + "World!")
 # print(("New lines can be created with a backslash and n.")
 
 # Solution
-print("Day 1 - String Manipulation")
-print('string concatenation is done with the "+" sign.')
-print('e.g. print("Hello" + "World")')
-print("New lines can be created with a backslash and n.")
+# print("Day 1 - String Manipulation")
+# print('string concatenation is done with the "+" sign.')
+# print('e.g. print("Hello" + "World")')
+# print("New lines can be created with a backslash and n.")
+
+print("Hariom Ajmera")
+
+input("what is your name?")
