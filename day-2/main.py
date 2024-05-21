@@ -31,3 +31,12 @@
 
 # bmi = (weight / (height ** 2))
 # print(int(bmi))
+
+# f-string
+age = int(input("What is your current age: "))
+left = 90 - age
+days = left * 365
+weeks = left * 52
+months = left * 12
+
+print("you have", days,",", weeks, "weeks, and", months, "months left.")
