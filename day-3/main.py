@@ -2,11 +2,11 @@
 
 # WAP to check if a number is odd or even.
 
-# number = int(input("Enter any number: "))
-# if number % 2 == 0:
-#     print(number, "is a even number.")
-# else:
-#     print(number, "is a odd number.")
+number = int(input("Enter any number: "))
+if number % 2 == 0:
+    print(number, "is a even number.")
+else:
+    print(number, "is a odd number.")
 
 # ----------------X--------------------
 
@@ -31,15 +31,17 @@ else:
 
 # WAP to determine that is given year is a leap yer or not.
 
-# year = int(input("Enter any year: "))
+year = int(input("Enter any year: "))
 
-# if year % 4 == 0:
-#     if year % 100 == 0:
-#         if year % 400 == 0:
-#             print(year, "is a leap year.")
-#         else:
-#             print(year, "is not a leap year.")
-#     else:
-#         print(year, "is a leap year.")
-# else:
-#     print(year, "is not a leap year.")
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print(year, "is a leap year.")
+        else:
+            print(year, "is not a leap year.")
+    else:
+        print(year, "is a leap year.")
+else:
+    print(year, "is not a leap year.")
+
+# ----------------X--------------------
