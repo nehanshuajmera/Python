@@ -49,8 +49,22 @@
 
 # WAP to print sum of even numbers from 1 to 100
 
-sum = 0
-for number in range(2, 101, 2):
-    sum += number
+# sum = 0
+# for number in range(2, 101, 2):
+#     sum += number
 
-print(sum)
+# print(sum)
+
+# ------------ X ---------------
+
+# FizzBuzz Game
+
+for number in range(1, 101):
+    if (number % 3 == 0) and (number % 5 == 0):
+        print("FizzBuzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    else:
+        print(number)
