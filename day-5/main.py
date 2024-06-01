@@ -25,12 +25,22 @@
 
 # WAP to print the maximum value present in the list
 
-values = input("Enter the elements.\n").split()
-print(values)
+# values = input("Enter the elements.\n").split()
+# print(values)
 
-max_val = 0
-for value in values:
-    if max_val < int(value):
-        max_val = int(value)
+# max_val = 0
+# for value in values:
+#     if max_val < int(value):
+#         max_val = int(value)
 
-print(max_val)
+# print(max_val)
+
+# ------------ X ---------------
+
+# range
+
+sum = 0
+for number in range(1, 101):
+    sum += number
+
+print(sum)
