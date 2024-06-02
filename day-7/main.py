@@ -2,7 +2,7 @@
 
 import random
 
-word_list = ["advark", "baboon", "camel"]
+word_list = ["ardvark", "baboon", "camel"]
 
 chosen_word = random.choice(word_list)
 print(chosen_word)
@@ -12,13 +12,18 @@ for blank in chosen_word:
 
 print(word)
 
-guess = input("Guess any letter. ").lower()
+end = False
 
-for i in range(0, len(chosen_word)):
-    if chosen_word[i] == guess:
-        print(guess)
-        word[i] = guess
-    else:
-        print("Wrong")
+while not end:
+    guess = input("Guess any letter. ").lower()
 
-print(word)
+    for i in range(0, len(chosen_word)):
+        if chosen_word[i] == guess:
+            word[i] = guess
+
+    print(word)
+
+    if "_" not in word:
+        end = True
+        print("You Win!!!!!")
+        
