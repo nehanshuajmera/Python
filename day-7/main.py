@@ -12,16 +12,25 @@ for blank in chosen_word:
 
 print(word)
 
+lives = 6
 end = False
 
 while not end:
     guess = input("Guess any letter. ").lower()
 
     for i in range(0, len(chosen_word)):
-        if chosen_word[i] == guess:
+        if lives != 0 and chosen_word[i] == guess:
             word[i] = guess
-
+            
     print(word)
+        
+    if guess not in chosen_word:
+        lives -= 1
+        if lives == 0:
+            end = True
+            print("You Lose!!!!!")
+
+    print("You have", lives, "lives left")
 
     if "_" not in word:
         end = True
