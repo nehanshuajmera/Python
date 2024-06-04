@@ -9,7 +9,15 @@
 
 # Function with Input
 
-def greet(name):
-    print("Hello", name)
+# def greet(name):
+#     print("Hello", name)
 
-greet("Nehanshu")
+# greet("Nehanshu")
+
+# Functions with multiple input
+
+def greet(name, location):
+    print("Name is", name)
+    print("Lives in", location)
+
+greet("Nehanshu", "Indore")
