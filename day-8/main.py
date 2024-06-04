@@ -20,9 +20,16 @@
 # greet("Nehanshu", "Indore")
 
 # positional arguments
-def greet(name, location):
-    print("Name is", name)
-    print("Lives in", location)
+# def greet(name, location):
+#     print("Name is", name)
+#     print("Lives in", location)
 
-greet("Nehanshu", "Indore")
-greet("Indore", "Nehanshu")
+# greet("Nehanshu", "Indore")
+# greet("Indore", "Nehanshu") # Positional arguments
+
+# KeyWord Arguments
+def practice(a, b, c):
+    print("A is",a, "\nB is",b, "\nC is",c)
+
+practice(1, 2, 3)
+practice(c = 3, a = 1, b = 2) # keyword arguments
