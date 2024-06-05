@@ -36,14 +36,24 @@ import math
 # practice(c = 3, a = 1, b = 2) # keyword arguments
 
 # WAP to get no. of can needed to paint a wall
+# def cans_needed(height, width, cover):
+#     area = height * width 
+#     no_of_cans = math.ceil(area / cover)
+#     print(no_of_cans)
 
-def cans_needed(height, width, cover):
-    area = height * width 
-    no_of_cans = math.ceil(area / cover)
-    print(no_of_cans)
+# height = int(input("Height of wall. "))
+# width = int(input("Width of wall. "))
+# coverage = 5
 
-height = int(input("Height of wall. "))
-width = int(input("Width of wall. "))
-coverage = 5
+# cans_needed(height=height, width=width, cover=coverage)
 
-cans_needed(height=height, width=width, cover=coverage)
+# WAP to know the prime number
+
+def get_prime(number):
+    for i in range(2, round(number / 2)):
+        if number % i == 0:
+            return False
+    return True
+
+num = int(input("Enter any number. "))
+print(get_prime(number = num))
