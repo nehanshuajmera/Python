@@ -57,5 +57,3 @@ def get_prime(number):
 num = int(input("Enter any number. "))
 print(get_prime(number = num))
 
-# commit day
-print("hello")
