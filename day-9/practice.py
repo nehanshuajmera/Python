@@ -32,3 +32,6 @@ print( fruits[0] )
 print( fruits[1] )
 print( fruits[2] )
 print( fruits[-1] )
+
+# index function to get index
+print( fruits.index("banana"))
