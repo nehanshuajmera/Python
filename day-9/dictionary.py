@@ -31,3 +31,10 @@ print(dict)
 
 # Checking if key exists
 print("one" in dict)
+
+# loops in dictionary
+for key in dict:
+    print(key, dict[key])
+
+for value in dict.values():
+    print(value)
