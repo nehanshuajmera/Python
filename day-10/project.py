@@ -18,7 +18,7 @@ def multiply(num1, num2):
 
 # divide
 def divide(num1, num2):
-    """ Divide teo numbers """
+    """ Divide two numbers """
     return num1 / num2
 
 # Dictionary
