@@ -98,6 +98,7 @@
 # 3 4 5
 # 4 5 6 7
 
+# methos 1 with creating a variable
 # n = int(input())
 # i = 1
 # while(i <= n):
@@ -110,16 +111,31 @@
 #   print()
 #   i = i + 1
 
+# method 2 without creating a variable
+# n = int(input())
+# i = 1
+# while(i <= n):
+#   j = 0
+#   while(j < i):
+#     print(i+j, end=" ")
+#     j = j + 1
+#   print()
+#   i = i + 1
+
+#  --------------------------- X --------------- 
+
+# Wap to print
+# 1
+# 2 1
+# 3 2 1
+# 4 3 2 1
+
 n = int(input())
 i = 1
 while(i <= n):
   j = 0
   while(j < i):
-    print(i+j, end=" ")
+    print(i - j, end=" ")
     j = j + 1
   print()
   i = i + 1
-
-#  --------------------------- X --------------- 
-
-# Wap to print
