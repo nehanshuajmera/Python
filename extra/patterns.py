@@ -166,10 +166,29 @@
 # A B C
 # A B C
 
+# n = int(input())
+# i = 1
+# while( i <= n):
+#   ch = "A"
+#   j = 1
+#   while(j <= n):
+#     print(ch, end=" ")
+#     ch = chr(ord(ch) + 1)
+#     j = j + 1
+#   print()
+#   i = i + 1
+
+#  --------------------------- X --------------- 
+
+# Wap to print
+# A B C 
+# D E F 
+# G H I
+
 n = int(input())
 i = 1
-while( i <= n):
-  ch = "A"
+ch = "A"
+while(i <= n):
   j = 1
   while(j <= n):
     print(ch, end=" ")
