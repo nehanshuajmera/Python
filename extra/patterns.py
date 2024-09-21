@@ -130,12 +130,31 @@
 # 3 2 1
 # 4 3 2 1
 
+# n = int(input())
+# i = 1
+# while(i <= n):
+#   j = 0
+#   while(j < i):
+#     print(i - j, end=" ")
+#     j = j + 1
+#   print()
+#   i = i + 1
+
+#  --------------------------- X --------------- 
+
+# Wap to print
+# A A A
+# B B B 
+# C C C
+
 n = int(input())
 i = 1
+ch = "A"
 while(i <= n):
-  j = 0
-  while(j < i):
-    print(i - j, end=" ")
-    j = j + 1
+  j = 1
+  while(j <= n):
+    print(ch, end=" ")
+    j = j + 1 
   print()
+  ch = chr(ord(ch) + 1)
   i = i + 1
