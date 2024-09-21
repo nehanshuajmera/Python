@@ -66,9 +66,10 @@
 # print(2 ** 3) # power
  
 # if else 
-number = int(input("Enter your age? "))
+# number = int(input("Enter your age? "))
 
-if number > 18:
-    print("You are eligible to vote")
-else:
-    print("You are a minor, not eligible to vote")
+# if number > 18:
+#     print("You are eligible to vote")
+# else:
+#     print("You are a minor, not eligible to vote")
+
