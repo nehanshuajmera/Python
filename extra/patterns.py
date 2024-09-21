@@ -147,14 +147,33 @@
 # B B B 
 # C C C
 
+# n = int(input())
+# i = 1
+# ch = "A"
+# while(i <= n):
+#   j = 1
+#   while(j <= n):
+#     print(ch, end=" ")
+#     j = j + 1 
+#   print()
+#   ch = chr(ord(ch) + 1) # ord() ordinal - gives ascii value 
+#   i = i + 1
+
+#  --------------------------- X --------------- 
+
+# Wap to print
+# A B C 
+# A B C
+# A B C
+
 n = int(input())
 i = 1
-ch = "A"
-while(i <= n):
+while( i <= n):
+  ch = "A"
   j = 1
   while(j <= n):
     print(ch, end=" ")
-    j = j + 1 
+    ch = chr(ord(ch) + 1)
+    j = j + 1
   print()
-  ch = chr(ord(ch) + 1)
   i = i + 1
