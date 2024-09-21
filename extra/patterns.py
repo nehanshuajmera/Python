@@ -185,14 +185,31 @@
 # D E F 
 # G H I
 
+# n = int(input())
+# i = 1
+# ch = "A"
+# while(i <= n):
+#   j = 1
+#   while(j <= n):
+#     print(ch, end=" ")
+#     ch = chr(ord(ch) + 1)
+#     j = j + 1
+#   print()
+#   i = i + 1
+
+#  --------------------------- X --------------- 
+
+# Wap to print
+# A B C 
+# B C D 
+# C D E
+
 n = int(input())
 i = 1
-ch = "A"
 while(i <= n):
   j = 1
   while(j <= n):
-    print(ch, end=" ")
-    ch = chr(ord(ch) + 1)
+    print(chr(ord("A") + i + j - 2), end=" ")
     j = j + 1
   print()
   i = i + 1
