@@ -42,13 +42,31 @@
 # * * *
 # * * * *
 
-n = int(input())
+# n = int(input())
 
+# i = 1
+# while(i <= n):
+#   j = 1
+#   while(j <= i):
+#     print("*", end=" ")
+#     j = j + 1
+#   print()
+#   i = i + 1
+
+#  --------------------------- X --------------- 
+
+# Wap to print
+# 1
+# 2 2 
+# 3 3 3
+# 4 4 4 4
+
+n = int(input())
 i = 1
 while(i <= n):
   j = 1
   while(j <= i):
-    print("*", end=" ")
+    print(i, end=" ")
     j = j + 1
   print()
   i = i + 1
