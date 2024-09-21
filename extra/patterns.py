@@ -78,10 +78,30 @@
 # 2 3
 # 4 5 6
 
+# n = int(input())
+# count = 1
+# i = 1
+# while(i <= n):
+#   j = 1
+#   while(j <= i):
+#     print(count, end=" ")
+#     count = count + 1
+#     j = j + 1
+#   print()
+#   i = i + 1
+
+#  --------------------------- X --------------- 
+
+# Wap to print
+# 1
+# 2 3
+# 3 4 5
+# 4 5 6 7
+
 n = int(input())
-count = 1
 i = 1
 while(i <= n):
+  count = i
   j = 1
   while(j <= i):
     print(count, end=" ")
