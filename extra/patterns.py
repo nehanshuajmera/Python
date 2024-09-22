@@ -204,12 +204,12 @@
 # B C D 
 # C D E
 
-n = int(input())
-i = 1
-while(i <= n):
-  j = 1
-  while(j <= n):
-    print(chr(ord("A") + i + j - 2), end=" ")
-    j = j + 1
-  print()
-  i = i + 1
+# n = int(input())
+# i = 1
+# while(i <= n):
+#   j = 1
+#   while(j <= n):
+#     print(chr(ord("A") + i + j - 2), end=" ")
+#     j = j + 1
+#   print()
+#   i = i + 1
